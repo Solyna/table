@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <!-- 顶部导航 -->
-    <topNav></topNav>
+    <!-- <topNav></topNav> -->
     <!-- 左侧导航 -->
-    <leftNav></leftNav>
+    <!-- <leftNav></leftNav> -->
     <div class="main">
       <router-view/>
     </div>
@@ -34,8 +34,8 @@ export default {
 }
 .main {
   float: left;
-  width: 85%;
-  background-color: #eff2f7;
+  width: 100%;
+  background-color: #fff;
   height: 100%;
   overflow: hidden;
 }
